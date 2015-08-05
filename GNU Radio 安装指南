@@ -1,5 +1,5 @@
 #GNU Radio安装指南(14.04)
-本文档采用手动编译方式安装,不使用
+#本文档采用手动编译方式安装,不使用
 
 apt-get intall gnuradio
 的方式，如果之前使用此方式安装过gnuradio，使用
