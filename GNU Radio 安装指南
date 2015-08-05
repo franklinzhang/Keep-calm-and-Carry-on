@@ -1,5 +1,4 @@
-Edit
-GNU Radio安装指南(14.04)
+#GNU Radio安装指南(14.04)
 本文档采用手动编译方式安装,不使用
 
 apt-get intall gnuradio
@@ -8,7 +7,7 @@ apt-get intall gnuradio
 sudo apt-get remove gnuradio
 安装分为两步，首先安装依赖包，依赖包安装成功再手动编译gnuradio
 
-1.安装依赖包
+##1.安装依赖包
 
 我们需要以下这些依赖包
 
