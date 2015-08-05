@@ -10,47 +10,88 @@
 我们需要以下这些依赖包
 #### 开发工具
 。g++
+
 。git
+
 。make
+
 。cmake
+
 。sdcc
+
 。guile
+
 。ccache(经常编译的话建议安装)
+
 #### 运行和编译需要的库
 。Python-dev
+
 。SWIG
+
 。FFTW 3.X(libfftw3-dev)
+
 。cppunit(libcppunit-dev)
+
 。Boost 1.35 (or later, but not 1.46, 1.47 or 1.52)
+
 。GSL GNU Scientific Library (libgsl0-dev)
+
 。libusb and libusb-dev
+
 。ALSA (alsa-base, libasound2 and libasound2-dev)
+
 #### grc
+
 。python-numpy
+
 。python-cheetah
+
 。python-lxml
+
 #### WX GUI
+
 。python-wxgtk2.8 
+
 。python-numpy
+
 #### QT GUI
+
 。PyQT4
+
 。PyQwt5
+
 。QT-OpenGL
+
 。Fontconfig
+
 。python-qt4
+
 。python-qwt5-qt4
+
 。libqt4-opengl-dev
+
 。libqwt5-qt4-dev
+
 。libfontconfig1-dev
+
 。libxrender-dev
+
 。libxi-dev
+
 #### 一些其他的依赖包
+
 。libsdl1.2-dev
+
 。python-scipy
+
 。python-matplotlib
+
 。python-tk
+
 。doxygen
+
 。octave
+
 在安装依赖之前先更新软件源
 
     sudo apt-get update
