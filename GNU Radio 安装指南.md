@@ -1,10 +1,13 @@
-# GNU Radio安装指南(14.04)
-本文档采用手动编译方式安装,不使用
+# GNU Radio安装指南(操作系统：Ubuntu 14.04)
+本文档采用手动编译方式安装,不使用 apt-get 方式安装，即
 
     apt-get intall gnuradio
 的方式，如果之前使用此方式安装过gnuradio，使用
 
     sudo apt-get remove gnuradio
+    
+将gnuradio卸载.
+
 安装分为两步，首先安装依赖包，依赖包安装成功再手动编译gnuradio
 ## 1.安装依赖包
 我们需要以下这些依赖包
@@ -95,7 +98,7 @@
 在安装依赖之前先更新软件源
 
     sudo apt-get update
-接下来安装依赖包，下面命令可以直接复制运行
+接下来安装上述依赖包，下面命令可以直接复制运行
 
     sudo apt-get -y install git-core cmake g++ python-dev swig  pkg-config libfftw3-dev libboost1.55-all-dev libcppunit-dev libgsl0-dev  libusb-dev libsdl1.2-dev python-wxgtk2.8 python-numpy  python-cheetah python-lxml doxygen libxi-dev python-sip  libqt4-opengl-dev libqwt-dev libfontconfig1-dev libxrender-dev  python-sip python-sip-dev
 这个是官方给的依赖包，版本更新有可能会缺少一些依赖包，所以最好把下面两组命令也运行一下，
