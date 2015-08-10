@@ -44,7 +44,7 @@ step3：添加模块
 在rx_fier模块中缺少一个import，我们需要自己添加import numpy，否者会不能generate和运行。
 
 step4：最后一步
-在上面步骤都完成之后，我们可以加载txrx的grc或者txrx1的grc进行仿真，如果有两个USRP的话，可以分别加载tx和rx的grc，注意设置uarp的地址，可以使用uhd_find_devices来看usrp设备的地址，到这里就可以直接使用cdma module了。
+在上面步骤都完成之后，我们可以加载txrx的grc或者txrx1的grc进行仿真，如果有两个USRP的话，可以分别加载tx和rx的grc，注意设置USRP的地址，可以使用uhd_find_devices来看usrp设备的地址，到这里就可以直接使用cdma module了。
 
 
 TIPS:如果需要修改参数的话，打开/gr-cdma/python/cdma_parameters.py进行修改，修改之后需要重新编译一下就可以了。
