@@ -1,4 +1,4 @@
-## 1. [balint256 提供的导论](https://github.com/franklinzhang/Keep-calm-and-Carry-on)
+## 1. [balint256 提供的导论](https://www.youtube.com/playlist?list=PL618122BD66C8B3C4)
 
 获得了Ettus Research 的官方推荐
 
