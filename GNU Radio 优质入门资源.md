@@ -1,4 +1,4 @@
-# 1. [balint256 提供的导论](https://github.com/franklinzhang/Keep-calm-and-Carry-on)
+## 1. [balint256 提供的导论](https://github.com/franklinzhang/Keep-calm-and-Carry-on)
 
 获得了Ettus Research 的官方推荐
 
@@ -8,10 +8,10 @@
 
 备注: 这个教程使用了OOT中的module gr-baz [需要按照该指南安装](https://github.com/balint256/gr-baz)
 
-# 2. 加拿大为维多利亚大学的 [ELEC350: Communications Theory and Systems I] (http://www.ece.uvic.ca/~elec350/lab_manual/ar01s01.html)
+## 2. 加拿大为维多利亚大学的 [ELEC350: Communications Theory and Systems I] (http://www.ece.uvic.ca/~elec350/lab_manual/ar01s01.html)
 
 这门课程的优点是兼顾了理论知识传授与实践操作的训练 教程十分友好、详尽 
 
-# 3. 科罗拉多大学课程 [ECEN 4652/5002 - Communications Lab] (http://ecee.colorado.edu/~mathys/ecen4652/labs.html)
+## 3. 科罗拉多大学课程 [ECEN 4652/5002 - Communications Lab] (http://ecee.colorado.edu/~mathys/ecen4652/labs.html)
 
 这门课兼顾了matlab 与 gnu radio 理论更丰富一些
